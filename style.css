@@ -126,3 +126,17 @@ body{
 .location-not-found img{
     width: 80%;
 }
+
+/* Media Query */
+@media only screen and (max-width:600px){
+    .weather-container{
+        width: 70%;
+        padding: 18px;
+    }
+    .search-box input{
+        font-size: 16px;
+    }
+    .search-box button{
+        font-size: 16px;
+    }
+}
